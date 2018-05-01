@@ -36,6 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4586971666586262}
+  - component: {fileID: 114948095551726240}
   m_Layer: 0
   m_Name: Heal
   m_TagString: Untagged
@@ -132,6 +133,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114948095551726240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820702659360474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18300a6e6d22d9544aa2479cfd013a11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToWait: 4.5
 --- !u!198 &198108957805475572
 ParticleSystem:
   m_ObjectHideFlags: 1

@@ -6,16 +6,12 @@ public class DestroyGameObjectWithDelay : MonoBehaviour
 {
     public float timeToWait = 0.1f;
 
-    IEnumerator killMyself()
-    {
-        yield return new WaitForSeconds(this.timeToWait);
-        Destroy(this.gameObject);
-    }
+
 
 	// Use this for initialization
 	void Start ()
     {
-        StartCoroutine(killMyself());
+        Destroy(this.gameObject, this.timeToWait);
 	}
 	
 	// Update is called once per frame

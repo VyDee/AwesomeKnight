@@ -34,6 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4111129288310284}
+  - component: {fileID: 114400867754252660}
   m_Layer: 0
   m_Name: Lightning
   m_TagString: explosion
@@ -347,6 +348,18 @@ Transform:
   m_Father: {fileID: 4111129288310284}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114400867754252660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164094381172014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18300a6e6d22d9544aa2479cfd013a11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToWait: 1
 --- !u!198 &198059349408544312
 ParticleSystem:
   m_ObjectHideFlags: 1
