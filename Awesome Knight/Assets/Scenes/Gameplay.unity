@@ -262,11 +262,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4233788714440580, guid: 2b175895e135cf64b80630c569d520ad, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.7582474
+      value: 4.98
       objectReference: {fileID: 0}
     - target: {fileID: 4233788714440580, guid: 2b175895e135cf64b80630c569d520ad, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 4233788714440580, guid: 2b175895e135cf64b80630c569d520ad, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1335,8 +1335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbc6e67b5404f594b825b71589848ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: b8e42ee6d1dd38143a8caa2dfe4fa58d, type: 3}
-  mousePoint: {fileID: 1701675947748504, guid: ac6b85277ade34f46b90d37f8fb6780e, type: 2}
+  cursorTexture: {fileID: 0}
+  mousePoint: {fileID: 0}
 --- !u!1 &881101966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,6 +2357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f397cd36f5be441b744829ae4ec3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy_CurrentState: 0
 --- !u!1 &1693219493
 GameObject:
   m_ObjectHideFlags: 0
